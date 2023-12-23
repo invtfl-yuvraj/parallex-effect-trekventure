@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 1px;
+  overflow-y: auto;
+  background: #1f1e1e;
+}
+.hero::-webkit-scrollbar {
+  background-color: #0a1946;
+  width: 10px;
+  margin-top: 10px;
+}
+.hero::-webkit-scrollbar-thumb {
+  background-color: #F7F0D5;
+  border-radius: 5px;
+  margin-inline: 2rem;
+  scroll-behavior: smooth;
+}
+.hero .nav {
+  position: relative;
+  top: 2%;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 0.2rem 1rem;
+  color: #0a1946;
+  background-color: rgba(247, 240, 213, 0.6117647059);
+  margin: 0 3.5rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px #0a1946;
+}
+.hero .nav::-webkit-scrollbar {
+  display: none;
+}
+.hero .nav .logo {
+  position: absolute;
+  text-align: center;
+  top: 2px;
+}
+.hero .nav .logo h3 {
+  color: rgb(0, 0, 0);
+}
+.hero .nav .logo h3 span {
+  font-size: 2rem;
+  color: #ff0000;
+}
+.hero .nav_box {
+  position: relative;
+  padding-inline-start: 30rem;
+}
+.hero .nav_box ul {
+  display: flex;
+  justify-content: space-between;
+}
+.hero .nav_box ul li {
+  list-style: none;
+  padding: 0.8rem 1.1rem;
+}
+.hero .nav_box ul li:hover {
+  color: #ff4343;
+  text-shadow: 5px 5px 10px #F7F0D5;
+  font-size: 1.2rem;
+  padding: 0.6rem 1.1rem;
+  cursor: pointer;
+}
+.hero .nav_other {
+  margin-left: 5rem;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+.container h1 {
+  position: absolute;
+  font-size: 9rem;
+  font-weight: 900;
+  color: rgb(240, 255, 240);
+  top: 15%;
+  left: 22%;
+  text-shadow: 1px 2px 5px black;
+  letter-spacing: 1rem;
+  z-index: -2000;
+}
+
+.bgimg1,
+.bgimg2 {
+  position: absolute;
+  z-index: -1;
+}
+
+.bgimg1 {
+  transform: translateZ(-5px) scale(3);
+}
+
+.bgimg2 {
+  transform: translateZ(-2px) scale(1.5);
+}
+
+.info {
+  background-color: rgb(51, 54, 63);
+  color: azure;
+}
+
+.heading {
+  position: relative;
+  left: 20%;
+  color: rgb(247, 249, 255);
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding: 1rem 10rem 0 10rem;
+}
+
+.bg {
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.text {
+  font-size: 1.5rem;
+  padding: 0 10rem;
+  margin: 5rem 0;
+}
+
+.desc {
+  position: absolute;
+  background-color: white;
+  padding: 0.5rem 2.5rem;
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+#last_text {
+  padding-bottom: 5rem;
+}/*# sourceMappingURL=style.css.map */
