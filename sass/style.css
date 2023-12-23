@@ -37,30 +37,36 @@
   display: none;
 }
 .hero .nav .logo {
-  color: rgb(0, 0, 0);
+  color: #0a1946;
 }
 .hero .nav .logo span {
   font-size: 1.9rem;
   color: #ff4343;
 }
+.hero .nav a {
+  text-decoration: none;
+}
 .hero .nav_box ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 0.5rem;
 }
 .hero .nav_box ul li {
+  color: #0a1946;
   list-style: none;
   padding-inline: 0.8rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 300ms ease;
 }
 .hero .nav_box ul li:hover {
   color: #ff4343;
-  text-shadow: 5px 5px 10px #F7F0D5;
+  text-shadow: 1px 1px 1px #F7F0D5;
   cursor: pointer;
 }
 .hero .nav_other {
   margin-left: 2rem;
-  color: red;
 }
 
 .container {
@@ -88,12 +94,11 @@
   position: absolute;
   font-size: 9rem;
   font-weight: 900;
-  color: rgb(240, 255, 240);
+  color: #0a1946;
   top: 12%;
   left: 18%;
-  text-shadow: 1px 2px 5px black;
+  text-shadow: 2px 2px 2px #F7F0D5;
   letter-spacing: 1rem;
-  z-index: -2;
 }
 
 .info {
