@@ -55,7 +55,7 @@
 }
 .hero .nav_box {
   position: relative;
-  padding-inline-start: 30rem;
+  padding-inline-start: 35rem;
 }
 .hero .nav_box ul {
   display: flex;
@@ -74,6 +74,7 @@
 }
 .hero .nav_other {
   margin-left: 5rem;
+  color: red;
 }
 
 .container {
@@ -91,8 +92,8 @@
   font-size: 9rem;
   font-weight: 900;
   color: rgb(240, 255, 240);
-  top: 15%;
-  left: 22%;
+  top: 12%;
+  left: 18%;
   text-shadow: 1px 2px 5px black;
   letter-spacing: 1rem;
   z-index: -2000;
@@ -113,13 +114,13 @@
 }
 
 .info {
-  background-color: rgb(51, 54, 63);
+  background-color: #0a1946;
   color: azure;
 }
 
 .heading {
   position: relative;
-  left: 20%;
+  left: 25%;
   color: rgb(247, 249, 255);
   font-size: 3.5rem;
   font-weight: 600;
@@ -133,6 +134,26 @@
   background-position: center;
   background-size: cover;
   height: 500px;
+}
+
+.bg5 {
+  background-image: url("../images/para-gliding.avif");
+}
+
+.bg2 {
+  background-image: url("../images/sky-diving.avif");
+}
+
+.bg3 {
+  background-image: url("../images/zip-lining.avif");
+}
+
+.bg1 {
+  background-image: url("../images/biking.avif");
+}
+
+.bg4 {
+  background-image: url("../images/surfing.avif");
 }
 
 .text {
@@ -151,6 +172,7 @@
   color: black;
   font-size: 3.5rem;
   font-weight: 600;
+  border-radius: 15px;
 }
 
 #last_text {
