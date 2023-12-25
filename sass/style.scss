@@ -6,7 +6,7 @@ $col3 : #00327e;
 $col4 : #003692;
 $col5 : #132854;
 $col6 : #0a1946;
-$col7 : #ff4343;
+$col7 : #ff3b3b;
 $col8 : rgb(240, 255, 240);
 
 
@@ -16,6 +16,110 @@ $col8 : rgb(240, 255, 240);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+}
+
+.hamburgur{
+    display: none;
+}
+
+
+@media (max-width : 848px) {
+    .hamburgur {
+        height: 2.5rem;
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .ham-bar {
+            position: relative;
+            height: 0.3rem;
+            width: inherit;
+            background-color: $col6;
+            border-radius: 1rem;
+
+            &::after,
+            &::before {
+                content: " ";
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background-color: inherit;
+                border-radius: 1rem;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+
+            &::before {
+                top: -0.5rem;
+            }
+
+            &::after {
+                top: 0.5rem;
+            }
+
+        }
+    }
+
+    .nav_box {
+        display: none;
+    }
+
+}
+
+
+.nav {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding-inline: 3rem;
+    padding-block: 0.4rem;
+    background-color: #f7f0d59c;
+    box-shadow: 0 10px 30px $col6;
+
+    .logo {
+        color: $col6;
+
+        span {
+            font-size: 1.9rem;
+            color: $col7;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.nav_box {
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+
+        li {
+            color: $col6;
+            list-style: none;
+            padding-inline: 0.8rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            transition: all 300ms ease;
+
+            &:hover {
+                color: $col7;
+                text-shadow: 1px 1px 1px $col1;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.nav_other {
+    margin-left: 2rem;
 }
 
 .hero {
@@ -38,59 +142,11 @@ $col8 : rgb(240, 255, 240);
         scroll-behavior: smooth;
     }
 
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-inline: 3rem;
-        padding-block: 0.4rem;
-        background-color: #f7f0d59c;
-        box-shadow: 0 10px 30px $col6;
+    @media (max-width : 548px) {
 
         &::-webkit-scrollbar {
             display: none;
         }
-
-        .logo {
-            color: $col6;
-            span {
-                font-size: 1.9rem;
-                color: $col7;
-            }
-        }
-
-        a{
-            text-decoration: none;
-        }
-    }
-
-    .nav_box {
-
-        ul {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 0.5rem;
-
-            li {
-                color: $col6;
-                list-style: none;
-                padding-inline: 0.8rem;
-                font-size: 1.2rem;
-                font-weight: 500;
-                transition: all 300ms ease;
-
-                &:hover {
-                    color: $col7;
-                    text-shadow: 1px 1px 1px $col1;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-
-    .nav_other {
-        margin-left: 2rem;
     }
 }
 
@@ -120,14 +176,30 @@ $col8 : rgb(240, 255, 240);
 
     h1 {
         position: absolute;
-        font-size: 9rem;
+        font-size: 9em;
         font-weight: 900;
         color: $col6;
         top: 12%;
-        left: 18%;
+        text-align: center;
         text-shadow: 2px 2px 2px $col1;
         letter-spacing: 1rem;
-        // z-index: -2;
+
+        @media (max-width: 1100px) {
+            font-size: 7rem;
+            letter-spacing: 0.7rem;
+
+        }
+
+        @media (max-width : 848px) {
+            font-size: 5rem;
+            letter-spacing: 0.3rem;
+
+        }
+        @media (max-width : 548px) {
+            font-size: 4rem;
+            letter-spacing: 0rem;
+
+        }
     }
 }
 
@@ -135,19 +207,55 @@ $col8 : rgb(240, 255, 240);
     background-color: $col6;
     color: $col8;
 
+
+
     .heading {
-        position: relative;
-        left: 25%;
+        text-align: center;
         color: $col8;
         font-size: 3.5rem;
         font-weight: 600;
-        padding: 1rem 10rem 0 10rem;
+        position: relative;
+        top: 3rem;
+
+        @media (max-width: 1100px) {
+            font-size: 2.5rem;
+
+        }
+
+        @media (max-width : 848px) {
+            font-size: 2rem;
+        }
+        @media (max-width : 548px) {
+            font-size: 1.5rem;
+        }
     }
 
     .text {
         font-size: 1.5rem;
-        padding: 0 10rem;
+        padding-inline: 10rem;
         margin: 5rem 0;
+
+        a {
+            text-decoration: none;
+        }
+
+        span {
+            color: $col7;
+        }
+
+        @media (max-width: 1100px) {
+            font-size: 1.2rem;
+            padding-inline: 5rem;
+        }
+
+        @media (max-width: 848px) {
+            font-size: 1rem;
+            padding-inline: 3rem;
+        }
+        @media (max-width: 548px) {
+            font-size: 1rem;
+            padding-inline: 1.5rem;
+        }
     }
 
     .bg {
@@ -169,6 +277,19 @@ $col8 : rgb(240, 255, 240);
             font-size: 3.5rem;
             font-weight: 600;
             border-radius: 15px;
+
+            @media (max-width: 1100px) {
+                font-size: 2.5rem;
+
+            }            
+            @media (max-width: 848px) {
+                font-size: 1.7rem;
+
+            }
+            @media (max-width: 548px) {
+                font-size: 1.3rem;
+
+            }
         }
     }
 
@@ -179,20 +300,20 @@ $col8 : rgb(240, 255, 240);
     .bg2 {
         background-image: url("../images/sky-diving.avif");
     }
-    
+
     .bg3 {
         background-image: url("../images/zip-lining.avif");
     }
-    
+
     .bg4 {
         background-image: url("../images/surfing.avif");
     }
 
     .bg5 {
         background-image: url("../images/para-gliding.avif");
-    }   
+    }
 }
 
 #last_text {
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
