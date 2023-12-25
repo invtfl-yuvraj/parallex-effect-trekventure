@@ -18,7 +18,7 @@ $col8 : rgb(240, 255, 240);
     scroll-behavior: smooth;
 }
 
-.hamburgur{
+.hamburgur {
     display: none;
 }
 
@@ -171,7 +171,7 @@ $col8 : rgb(240, 255, 240);
     }
 
     .bgimg2 {
-        transform: translateZ(-2px) scale(1.5);
+        transform: translateZ(-2px) scale(3);
     }
 
     h1 {
@@ -195,6 +195,7 @@ $col8 : rgb(240, 255, 240);
             letter-spacing: 0.3rem;
 
         }
+
         @media (max-width : 548px) {
             font-size: 4rem;
             letter-spacing: 0rem;
@@ -206,8 +207,6 @@ $col8 : rgb(240, 255, 240);
 .info {
     background-color: $col6;
     color: $col8;
-
-
 
     .heading {
         text-align: center;
@@ -225,6 +224,7 @@ $col8 : rgb(240, 255, 240);
         @media (max-width : 848px) {
             font-size: 2rem;
         }
+
         @media (max-width : 548px) {
             font-size: 1.5rem;
         }
@@ -252,6 +252,7 @@ $col8 : rgb(240, 255, 240);
             font-size: 1rem;
             padding-inline: 3rem;
         }
+
         @media (max-width: 548px) {
             font-size: 1rem;
             padding-inline: 1.5rem;
@@ -281,13 +282,15 @@ $col8 : rgb(240, 255, 240);
             @media (max-width: 1100px) {
                 font-size: 2.5rem;
 
-            }            
+            }
+
             @media (max-width: 848px) {
                 font-size: 1.7rem;
 
             }
+
             @media (max-width: 548px) {
-                font-size: 1.3rem;
+                font-size: 1.1rem;
 
             }
         }

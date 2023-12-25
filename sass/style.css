@@ -134,7 +134,7 @@
   transform: translateZ(-5px) scale(3);
 }
 .container .bgimg2 {
-  transform: translateZ(-2px) scale(1.5);
+  transform: translateZ(-2px) scale(3);
 }
 .container h1 {
   position: absolute;
@@ -253,7 +253,7 @@
 }
 @media (max-width: 548px) {
   .info .bg .description {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 .info .bg1 {
