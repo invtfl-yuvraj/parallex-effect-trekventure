@@ -32,7 +32,7 @@ To experience the parallax effect and get started with TrekVenture, simply clone
 
 1. Clone the repository: 
     ```bash
-    git clone https://github.com/your-username/TrekVenture.git
+    git clone https://github.com/invtfl-yuvraj/parallex-effect-trekventure.git
 
 2. Navigate to the project directory:
 
