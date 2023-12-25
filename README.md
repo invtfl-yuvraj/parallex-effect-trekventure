@@ -1,4 +1,4 @@
-# TrekVenture
+# TrekVenture Website (WebDev Project- 2) - Parallex Effect
 
 Welcome to TrekVenture, where every adventure comes to life with our captivating parallax effect! This repository contains the code for the TrekVenture website, an online platform dedicated to curating and guiding you through thrilling and rewarding adventure experiences around the world.
 
