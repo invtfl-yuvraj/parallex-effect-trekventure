@@ -16,7 +16,7 @@ Welcome to TrekVenture, where every adventure comes to life with our captivating
 TrekVenture is designed to inspire and guide adventurers towards unforgettable experiences. Our website stands out with its immersive parallax effect, providing a dynamic and visually appealing journey through the world of adventure.
 
 ## Preview
-You can see a live preview here : [will be updated soon...]
+You can see a live preview here : https://trekventure.vercel.app
 
 ## Features
 - **Responsive Design:** The website is designed to be responsive, ensuring a seamless experience across various devices.
