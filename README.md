@@ -44,12 +44,12 @@ To experience the parallax effect and get started with TrekVenture, simply clone
 Explore the various adventures TrekVenture has to offer by navigating through the website. Immerse yourself in the parallax effect, enhancing the overall visual appeal of your adventure journey.
 
 ## Contributing
-If you'd like to contribute to TrekVenture, feel free to fork the repository and submit a pull request. We welcome contributions that improve the user experience, add new features, or enhance the parallax effect.
+If you'd like to contribute to TrekVenture, feel free to fork the repository and submit a pull request. We welcome contributions to improve the user experience, add new features, or enhance the parallax effect.
 
 ## Acknowledgement
 1. Thanks to Love Babbar for providing this Project Idea.
 2. Images used is this project are downloaded from unsplash.com.
 
-Although I build this whole project myself from scratch after learning the concepts.
+Although, I built this whole project myself from scratch after learning the concepts.
 
-This project is a part of my learning journey in web development. If you have any questions or suggestions, feel free to open an issue or reach out to me. Thank you for checking out my first project!
+This project is a part of my learning journey in web development. If you have any questions or suggestions, feel free to open an issue or reach out to me. Thank you for checking out my project!
